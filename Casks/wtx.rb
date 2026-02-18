@@ -3,7 +3,7 @@ cask "wtx" do
   name "wtx"
   desc "Git worktree management CLI"
   homepage "https://github.com/t-shiratori/wtx"
-  version "0.1.6"
+  version "0.1.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "wtx" do
     on_intel do
       url "https://github.com/t-shiratori/wtx/releases/download/v#{version}/wtx_darwin_amd64.tar.gz",
         verified: "github.com/t-shiratori/wtx"
-      sha256 "44d30aacfdc7e725047ee3485179bd8c8a950ce075ce1b7a3ec1de38e529373b"
+      sha256 "561de33f3289e7221f41ad75aafa47adb91c420d1ab74c4c048d8bdac38c5a4b"
     end
     on_arm do
       url "https://github.com/t-shiratori/wtx/releases/download/v#{version}/wtx_darwin_arm64.tar.gz",
         verified: "github.com/t-shiratori/wtx"
-      sha256 "05d3c2aedbf3e99968349d055d0810476ad89bc3810af40ece2d736f556ef13f"
+      sha256 "0f90a54b463936f08bd8e4377764eb538be2fa32ed06822484da3ee2bccc8ade"
     end
   end
 
